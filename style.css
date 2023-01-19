@@ -118,3 +118,25 @@ p {
 	text-transform: uppercase;
 	text-align: center;
 }
+
+
+/*Float Icons*/
+.socials {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .socials a {
+    color: #FFF;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #FFF;
+    border-radius: 25%;
+    text-decoration: none;
+  }
